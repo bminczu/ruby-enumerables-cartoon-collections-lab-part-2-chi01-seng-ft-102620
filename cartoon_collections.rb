@@ -12,6 +12,7 @@ def summon_captain_planet(planeteer_calls)
     string.concat("!")
 end
 end
+end
 
 end  # Use an Enumerable do to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results

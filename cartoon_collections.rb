@@ -15,8 +15,7 @@ end
 # Use an Enumerable do to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
 def long_planeteer_calls(planeteer_calls)
-  # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
-  # Return the boolean result of this check
+  planeteer_calls.any? {|string| string.length > 4}
 end
 
 def find_valid_calls(planeteer_calls)

@@ -15,7 +15,7 @@ end
 # Use an Enumerable do to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
 def long_planeteer_calls(planeteer_calls)
-  planeteer_calls.any? {|string| string.length > 4}
+  planeteer_calls.any?{|string| string.length > 4}
 end
 
 def find_valid_calls(planeteer_calls)
